@@ -34,7 +34,7 @@ public class Nomor2 {
     }else if (packing == 3) {
       packing = 125000;
     }
-    double hasil = hampers + packing;
+    double hasil = hampers + packing *0.1;
     keseluruhan += hasil;
 
     Biaya.add(keseluruhan);
