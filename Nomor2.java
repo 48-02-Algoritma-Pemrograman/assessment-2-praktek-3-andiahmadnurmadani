@@ -39,9 +39,9 @@ public class Nomor2 {
 
     Biaya.add(keseluruhan);
     for (int i = 0; i < Biaya.size();i++){
-      total += Biaya.get(i);
+      keseluruhan += Biaya.get(i);
     }
-    return total;
+    return keseluruhan;
   }
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
